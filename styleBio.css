@@ -1,0 +1,67 @@
+body{
+    overflow: visible;
+    background-image: url(Gambar/bar-cafe.jpg);
+
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .gambar{
+        flex: 2;
+    }
+    .nav{
+        flex: 1;
+    }
+    .header .nav ul li{
+      display: inline;
+      padding-right: 70px;
+  
+    }
+    .header .nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Just Me Again Down Here', cursive;
+      font-weight: 100;
+      font-size: 50px;
+    }
+    .left h2{
+        font-size: 60px;
+        color: white;
+    }
+    .content{
+        display: flex;
+    }
+    .left{
+        flex: 1;
+        margin: auto;
+        padding-left: 120px;
+    }
+    .right{
+        flex: 2;
+        background-color: rgb(245, 78, 18,0.6);
+        margin-right: 20px;
+    }
+    .right p{
+        padding: 20px;
+        font-family: 'Just Me Again Down Here', cursive;
+        font-size: 40px;
+        color: white;
+    }
+    .button{
+        margin-top: 200px;
+        margin-left: 100px;
+        background-color: orangered;
+        width: 180px;
+        border-radius: 7px;
+    }
+    .button p{
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .button p a{
+        color: white;
+        text-decoration: none;
+    }
+    

@@ -1,0 +1,61 @@
+body{
+    overflow: visible;
+    background-color: rgba(255, 85, 0, 0.5);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .gambar{
+        flex: 2;
+    }
+    .nav{
+        flex: 1;
+    }
+    .header .nav ul li{
+      display: inline;
+      padding-right: 70px;
+  
+    }
+    .header .nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Just Me Again Down Here', cursive;
+      font-weight: 100;
+      font-size: 50px;
+    }
+    .content{
+        margin: auto;
+        background-color: rgb(187, 185, 183);
+        font-family: 'Just Me Again Down Here', cursive;
+        width: 80%;
+    }
+    .content h1{
+        text-align: center;
+        font-size: 90px;
+    }
+    .bottom{
+        text-align: center;
+        font-size: 30px;
+    }
+    .radio{
+        margin-top: -30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .table{
+        font-size: 30px;
+        padding-left: 200px;
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .button{
+        background-color: orangered;
+    }
